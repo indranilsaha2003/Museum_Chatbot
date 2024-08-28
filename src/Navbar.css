@@ -1,0 +1,35 @@
+/* Styles for the Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1e1e; /* Dark background for the navbar */
+    padding: 10px 20px;
+    color: #e0e0e0; /* Light text color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Darker shadow for navbar */
+}
+
+.navbar-brand {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar-buttons {
+    display: flex;
+    gap: 15px; /* Spacing between buttons */
+}
+
+.navbar-button {
+    background: none;
+    border: none;
+    color: #e0e0e0; /* Light text color */
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px; /* Border radius for buttons */
+    font-size: 16px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.navbar-button:hover {
+    background-color: #333; /* Darker background on hover */
+}
