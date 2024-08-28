@@ -37,7 +37,6 @@ body, html, #root, .App {
     background: linear-gradient(to right, #000000, #086311, #ffffff); /* Dark green, black, purple gradient */
     -webkit-background-clip: text;
     color: transparent;
-    -webkit-text-stroke: 1px black; /* Black border around the text */
   }
   
   .overlay-content h2 {
@@ -46,7 +45,6 @@ body, html, #root, .App {
     background: linear-gradient(to right, #004d00, #000000, #4b0082); /* Dark green, black, purple gradient */
     -webkit-background-clip: text;
     color: transparent;
-    -webkit-text-stroke: 1px black; /* Black border around the text */
   }
   
   /* Book now button styling */
